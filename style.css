@@ -70,9 +70,3 @@ li{
     display: inline-block;
     font-size: 26px;
 }
-
-#pphide {
-    margin-left: 1000px;
-    text-orientation: inherit;
-    color: aliceblue;
-}
