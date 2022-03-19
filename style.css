@@ -33,13 +33,11 @@ h2{
 p{
     width: 40%;
 }
-footer{
-    height: 20%;
-    background-color: rgb(71, 71, 71);
-    color:#fff;
-}
+
 .footera{
     color:#fff;
+    height: 20%;
+    background-color: rgb(71, 71, 71);
 }
 
 li{
