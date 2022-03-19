@@ -5,7 +5,7 @@ body{
     width: 100%;
     height: 100%;
     font-size: 18pt;
-    color: #808080;
+    
     display: block;
     
 }
@@ -47,9 +47,32 @@ li{
     list-style-type: none;
 }
 
-img {
-    width: 500;
-    height: 500;
+.meows {
+    width: 500px;
+    height: 400px;
     margin-left: 20px;
     border-radius: 20%;
+    margin-top: 20px;
+}
+
+.tpa {
+    color: #808080;
+    text-decoration: none;
+}
+
+.tpabitton {
+    background-color: rgb(43, 184, 170);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+}
+
+#pphide {
+    margin-left: 1000px;
+    text-orientation: inherit;
+    color: aliceblue;
 }
