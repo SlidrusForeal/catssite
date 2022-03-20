@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
 body{
-    color: #808080;
+    color: black;
     font-family: 'Catamaran', sans-serif;
     background-color: aliceblue;
     width: 100%;
@@ -23,11 +23,11 @@ main{
 }
 h1{
     font-size: 25pt;
-    color: rgb(59, 230, 212);
+    color: black    ;
 }
 h2{
     font-size: 25pt;
-    color: rgb(43, 184, 170); 
+    color: black;
 }
 
 .afoot{
@@ -42,6 +42,7 @@ li{
     list-style-type: none;
 }
 
+
 .meows {
     width: 500px;
     height: 400px;
@@ -51,7 +52,7 @@ li{
 }
 
 .tpa {
-    color: #808080;
+    color: black;
     text-decoration: none;
 }
 
@@ -63,4 +64,25 @@ li{
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: whitesmoke;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: whitesmoke;
 }
