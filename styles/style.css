@@ -42,6 +42,10 @@ li{
     list-style-type: none;
 }
 
+#secrets {
+    display: none;
+    visibility: hidden;
+}
 
 .meows {
     width: 500px;
