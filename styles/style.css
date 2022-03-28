@@ -90,3 +90,9 @@ li{
     background-color: #4CAF50;
     color: whitesmoke;
 }
+
+#imagesabout {
+    display: inline;
+    width: 500px;
+    height: 500px;
+}
