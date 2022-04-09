@@ -75,7 +75,7 @@ li{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	position: absolute;
+	position: sticky;
 	right: 45px;
 	bottom: 45px;
     border: none;
