@@ -68,14 +68,14 @@ li{
     text-decoration: none;
 }
 
-.tpabitton {
+#tpabitton {
     background-color: rgb(43, 184, 170);
     border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-	position: sticky;
+	position: fixed;
 	right: 45px;
 	bottom: 45px;
     border: none;
