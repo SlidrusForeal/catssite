@@ -68,7 +68,7 @@ li{
     text-decoration: none;
 }
 
-#tpabitton {
+.tpabitton {
     background-color: rgb(43, 184, 170);
     border: none;
     padding: 15px 32px;
