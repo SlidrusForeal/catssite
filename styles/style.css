@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 body{
     margin: 0;
     padding: 0;
     color: black;
-    font-family: 'Catamaran', sans-serif;
-    background-color: aliceblue;
+    font-family: 'Rubik Glitch', cursive;
+    background: -webkit-linear-gradient(90deg, #f0f8ff,#e3f8ff,#fcf8ff,#e2f8ff,#d5f8ff);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #f0f8ff,#e3f8ff,#fcf8ff,#e2f8ff,#d5f8ff);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
     width: 100%;
     height: 100%;
     font-size: 18pt;
