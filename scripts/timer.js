@@ -37,5 +37,5 @@ function getTimeRemaining(endtime) {
     var timeinterval = setInterval(updateClock, 1000);
   }
    
-  var deadline = 'April 17 2022 00:00:00';
+  var deadline = 'May 30 2022 00:00:00';
   initializeClock('countdown', deadline);
