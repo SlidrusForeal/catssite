@@ -11,6 +11,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="/main.js" defer></script>
+        <link rel="stylesheet" href="/styles/main.css">
         <style>
         html, body {
             height: 100%;
@@ -130,7 +131,27 @@
           </style>
     </head>
     <body>
-        
+                <div id="sidebar">
+            <div class="toggle-btn" onclick="openMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li>Меню котосайтика</li>
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="/htmls/news.html">Новости</a></li>
+                <li><a href="/">О сайте</a></li>
+                <li><a href="/htmls/main.html">Жёсткая разработка</a></li>
+    
+            </ul>
+        </div>
+    
+        <script>
+            function openMenu() {
+                document.getElementById("sidebar").classList.toggle('active');
+            }
+        </script>  
         <div class="container">
             <div class="header"><h1>НОВОСТИ ИЗ ПАРАЛЕЛЬНОЙ ВСЕЛЕННОЙ</h1></div>
             <div class="content"><button id="getNews"><span>ПОЛУЧИТЬ НОВОСТИ НА МУРЧАЩЕМ</span> </button></div>
@@ -139,6 +160,6 @@
             <div class="footer">Made by Ezequiel Becke with newsapi.org
             </div>-->
               </div>
-          
+
     </body>
 </html>
