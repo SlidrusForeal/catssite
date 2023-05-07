@@ -4,30 +4,17 @@ $color_type_0: rgb(0, 0, 0);
 $color_type_1: rgb(255, 255, 255);
 $color_type_2: rgb(90, 99, 72);
 
-$padding_type_0: undefinedpx undefinedpx undefinedpx undefinedpx;
-
 $font_type_0: 800 35px/0.93 "Jost", Helvetica, Arial, serif;
 $font_type_1: 800 25px/1.44 "Jost", Helvetica, Arial, serif;
 $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
 
-.main {
-  @include flex-column;
-  background: var(--src) center center / cover no-repeat;
-  padding: $padding_type_0;
-  position: relative;
-  overflow: hidden;
-}
-.main > .cell {
-  @include flex-column;
-  position: relative;
-}
-.section1__section1 {
+.section1 {
   @include flex-column;
   position: relative;
   flex-grow: 1;
   min-height: 1024px;
 }
-.section1__image1 {
+.image1 {
   outline: 3px solid rgb(90, 99, 72);
   outline-offset: -3px;
   width: 263px;
@@ -41,7 +28,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   bottom: 104px;
   left: 12px;
 }
-.section1__subtitle {
+.subtitle {
   @include lg {
     font-size: 16px;
   }
@@ -57,7 +44,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   bottom: 101px;
   left: 294px;
 }
-.section1__medium_title {
+.medium_title {
   @include lg {
     font-size: 20px;
   }
@@ -76,7 +63,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 696px;
   left: 348px;
 }
-.section1__image2 {
+.image2 {
   outline: 3px solid rgb(90, 99, 72);
   outline-offset: -3px;
   width: 269px;
@@ -90,7 +77,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 0px;
   left: 9px;
 }
-.section1__subtitle1 {
+.subtitle1 {
   @include lg {
     font-size: 16px;
   }
@@ -106,7 +93,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 98px;
   left: 288px;
 }
-.section1__medium_title1 {
+.medium_title1 {
   @include lg {
     font-size: 20px;
   }
@@ -125,7 +112,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 53px;
   left: 289px;
 }
-.section1__subtitle2 {
+.subtitle2 {
   @include lg {
     font-size: 16px;
   }
@@ -141,7 +128,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 430px;
   left: 12px;
 }
-.section1__medium_title2 {
+.medium_title2 {
   @include lg {
     font-size: 20px;
   }
@@ -160,7 +147,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 380px;
   left: 37px;
 }
-.section1__image3 {
+.image3 {
   outline: 3px solid rgb(90, 99, 72);
   outline-offset: -3px;
   width: 222px;
@@ -174,7 +161,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 366px;
   left: 451px;
 }
-.section1__group {
+.group {
   @include flex-column;
   width: 685px;
   height: 80px;
@@ -182,7 +169,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   bottom: 0px;
   left: 0px;
 }
-.section1__rect {
+.rect {
   background-color: $color_type_2;
   position: absolute;
   top: 0px;
@@ -191,7 +178,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   left: 0px;
   right: -55px;
 }
-.section1__big_title {
+.big_title {
   @include md {
     font-size: 28px;
   }
@@ -213,7 +200,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   left: 0px;
   right: 0px;
 }
-.section1__rect1 {
+.rect1 {
   background-color: $color_type_2;
   width: 39px;
   position: absolute;
@@ -224,7 +211,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   right: -100vw;
   margin: 0px auto;
 }
-.section1__image4 {
+.image4 {
   outline: 3px solid rgb(90, 99, 72);
   outline-offset: -3px;
   width: 242px;
@@ -238,7 +225,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 16px;
   right: 443px;
 }
-.section1__subtitle3 {
+.subtitle3 {
   @include lg {
     font-size: 16px;
   }
@@ -254,7 +241,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 127px;
   right: 8px;
 }
-.section1__medium_title3 {
+.medium_title3 {
   @include lg {
     font-size: 20px;
   }
@@ -273,7 +260,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 16px;
   right: 46px;
 }
-.section1__medium_title4 {
+.medium_title4 {
   @include lg {
     font-size: 20px;
   }
@@ -292,7 +279,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 374px;
   right: 268px;
 }
-.section1__image5 {
+.image5 {
   outline: 3px solid rgb(90, 99, 72);
   outline-offset: -3px;
   width: 236px;
@@ -306,7 +293,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 400px;
   right: 22px;
 }
-.section1__subtitle4 {
+.subtitle4 {
   @include lg {
     font-size: 16px;
   }
@@ -322,7 +309,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 414px;
   right: 268px;
 }
-.section1__image6 {
+.image6 {
   outline: 3px solid rgb(90, 99, 72);
   outline-offset: -3px;
   width: 257px;
@@ -336,7 +323,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   bottom: 89px;
   right: 428px;
 }
-.section1__medium_title5 {
+.medium_title5 {
   @include lg {
     font-size: 20px;
   }
@@ -355,7 +342,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   top: 721px;
   right: 32px;
 }
-.section1__subtitle5 {
+.subtitle5 {
   @include lg {
     font-size: 16px;
   }
@@ -371,7 +358,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   bottom: 88px;
   right: 12px;
 }
-.section1__group1 {
+.group1 {
   @include flex-column;
   width: 720px;
   height: 82px;
@@ -379,7 +366,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   bottom: 0px;
   right: 0px;
 }
-.section1__rect2 {
+.rect2 {
   background-color: $color_type_2;
   position: absolute;
   top: 0px;
@@ -388,7 +375,7 @@ $font_type_2: 400 20px/1.45 "Jost", Helvetica, Arial, serif;
   left: 0px;
   right: 0px;
 }
-.section1__big_title1 {
+.big_title1 {
   @include md {
     font-size: 28px;
   }
