@@ -8,6 +8,11 @@ body {
     display: block;
 }
 
+img {
+	width: 100%; /* or max-width: 100%; */
+	height: auto;
+  }
+
 .e216_2 { 
 	background-color:rgba(255, 255, 255, 1);
 	width:1440px;
