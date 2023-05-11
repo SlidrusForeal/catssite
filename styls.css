@@ -59,6 +59,7 @@ img {
 	font-size:70px;
 	letter-spacing:0;
 }
+
 .e221_8 { 
     border:3px solid #5A6348;
 	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -130,4 +131,43 @@ img {
 	text-align:center;
 	font-size:30px;
 	letter-spacing:0;
+}
+
+.e221_12AM { 
+    border:3px solid #5A6348;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:463px;
+	height:321px;
+	position:absolute;
+	left:494px;
+	top:130px;
+	background-image:url(images/moew.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.e221_14AM { 
+    border:3px solid #5A6348;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:231px;
+	height:321px;
+	position:absolute;
+	left:957px;
+	top:130px;
+	background-image:url(images/alia.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.e221_8AM { 
+    border:3px solid #5A6348;
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+	width:243.23951721191406px;
+	height:321px;
+	position:absolute;
+	left:251px;
+	top:130px;
+	background-image:url(images/image_110.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
